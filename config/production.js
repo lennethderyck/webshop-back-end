@@ -10,6 +10,7 @@ module.exports = {
   database: {
     client: 'mysql2',
     name: 'webshop',
+    port: 3306,
   },
   pagination: {
     limit: 100,
