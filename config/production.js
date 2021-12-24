@@ -24,7 +24,7 @@ module.exports = {
       memoryCost: 2 ** 17,
     },
     jwt: {
-      secret: JWT_SECRET,
+      secret: 'JWT_SECRET',
       expirationInterval: 60 * 60 * 1000,
       issuer: 'budget.hogent.be',
       audience: 'budget.hogent.be',
