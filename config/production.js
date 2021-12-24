@@ -6,7 +6,7 @@ module.exports = {
   cors: {
     origins: [
       'http://localhost:3000',
-      'https://lennethderyck.github.io/webshop-front-end/'
+      'https://lennethderyck.github.io'
     ],
     maxAge: 3 * 60 * 60, // 3h in seconds
   },
